@@ -8,14 +8,12 @@ ESP32 Modbus Manager is a REST API service designed to manage Modbus devices, sp
   - Register new devices with unique IDs
   - Configure Modbus slave IDs
   - Monitor device status
-  - Manage WiFi settings for devices
 
 - **Register Operations**
   - Read/Write individual registers
   - Batch operations for multiple registers
   - Support for different register types (Holding, Input, Coil, Discrete Input)
   - Register value validation
-  - Historical tracking of register changes
 
 - **Security**
   - Token-based authentication
@@ -23,9 +21,7 @@ ESP32 Modbus Manager is a REST API service designed to manage Modbus devices, sp
   - Request validation
   - Permission checks for register access
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 - CMake 3.1+
 - C++11 compiler
